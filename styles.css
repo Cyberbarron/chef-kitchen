@@ -217,6 +217,8 @@ nav {
 
   .hero-header {
     width: calc(100% - 4rem);
+    font-size: clamp(1.8rem, 9vw, 2.8rem);
+    line-height: 1;
   }
 
   .hero-img {
