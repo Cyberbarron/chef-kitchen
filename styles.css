@@ -232,9 +232,16 @@ nav {
 }
 
 @media (max-width: 600px) {
+  .nav-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.4rem 1rem;
+  }
+  
   .nav-items,
   .nav-items * {
-    font-size: 1rem imo !important;
+    font-size: 1rem !important;
     line-height: 1.3 !important;
   }
 }
