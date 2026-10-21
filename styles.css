@@ -220,9 +220,21 @@ nav {
     font-size: clamp(1.8rem, 9vw, 2.8rem);
     line-height: 1;
   }
+  .hero-header,
+  .hero-header * {
+    font-size: clamp(1.8rem, 9vw, 2.8rem) !important;
+  }
 
   .hero-img {
     width: 80%;
     bottom: -5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-items,
+  .nav-items * {
+    font-size: 1rem imo !important;
+    line-height: 1.3 !important;
   }
 }
